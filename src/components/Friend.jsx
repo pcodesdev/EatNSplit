@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
+import Button from "./Button";
 
 function Friend({ friend}) {
   // eslint-disable-next-line react/prop-types
@@ -22,7 +22,7 @@ function Friend({ friend}) {
           You and {friend.name} are even
         </p>
           )}
-          <button className="button">Select</button>
+          <Button>Select</Button>
     </li>
   );
 }
